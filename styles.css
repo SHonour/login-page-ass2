@@ -213,4 +213,21 @@ a{
     margin-left: 0.75em;
 }
 
+@media (max-width: 813px) {
+    .left_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 700px;
+        justify-content: center;
+    }
+
+    .left_container h1{
+        font-size: 90px;
+        align-self: first baseline;
+        width: 700px;
+        margin-left: 70px;
+    }
+
+}
 
