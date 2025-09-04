@@ -33,7 +33,6 @@ body{
   z-index: 1;
 }
 
-
 .blur_overlay{
   background-color: rgba(0, 0, 0, 0.5); 
   height: 85%;
@@ -204,7 +203,6 @@ a{
     border-bottom: 1px solid white;
 }
 
-
 .divider:not(:empty)::before{
     margin-right: 0.75em;
 }
@@ -218,16 +216,12 @@ a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 700px;
         justify-content: center;
+        text-align: center;
     }
 
-    .left_container h1{
-        font-size: 90px;
-        align-self: first baseline;
-        width: 700px;
-        margin-left: 70px;
+    .right_container{
+        transform: scale(0.8);
     }
-
 }
 
